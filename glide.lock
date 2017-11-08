@@ -1,0 +1,34 @@
+hash: 7315a1b70a26033aaf5e1778d6ab99b877cd36de0b448a489754528bf09b3867
+updated: 2017-11-08T17:18:20.035717297+03:00
+imports:
+- name: github.com/btcsuite/btcd
+  version: 8cea3866d0f7fb12d567a20744942c0d078c7d15
+  subpackages:
+  - btcec
+  - btcjson
+  - chaincfg
+  - chaincfg/chainhash
+  - rpcclient
+  - wire
+- name: github.com/btcsuite/btclog
+  version: 84c8d2346e9fc8c7b947e243b9c24e6df9fd206a
+- name: github.com/btcsuite/btcutil
+  version: 501929d3d046174c3d39f0ea54ece471aa17238c
+  subpackages:
+  - base58
+  - bech32
+- name: github.com/btcsuite/go-socks
+  version: 4720035b7bfd2a9bb130b1c184f8bbe41b6f0d0f
+  subpackages:
+  - socks
+- name: github.com/btcsuite/websocket
+  version: 31079b6807923eb23992c421b114992b95131b55
+- name: github.com/davecgh/go-spew
+  version: 346938d642f2ec3594ed81d874461961cd0faa76
+  subpackages:
+  - spew
+- name: golang.org/x/crypto
+  version: 122d919ec1efcfb58483215da23f815853e24b81
+  subpackages:
+  - ripemd160
+testImports: []
