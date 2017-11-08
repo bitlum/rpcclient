@@ -1,9 +1,9 @@
 rpcclient
 =========
 
-[![Build Status](http://img.shields.io/travis/btcsuite/btcd.svg)](https://travis-ci.org/btcsuite/btcd)
-[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/btcsuite/btcd/rpcclient)
+
+AS FAR  AS THERE IS NO WAY TO CHANGE RPCLIENT WITHOUT FORKING BTCD, WE WERE FORCED TO SNATCH IT : (
 
 rpcclient implements a Websocket-enabled Bitcoin JSON-RPC client package written
 in [Go](http://golang.org/).  It provides a robust and easy to use client for
