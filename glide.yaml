@@ -1,6 +1,6 @@
 package: github.com/bitlum/rpcclient
 import:
-- package: github.com/btcsuite/btcd
+- package: github.com/bitlum/btcd
   subpackages:
   - btcjson
   - chaincfg
@@ -8,7 +8,7 @@ import:
   - rpcclient
   - wire
 - package: github.com/btcsuite/btclog
-- package: github.com/btcsuite/btcutil
+- package: github.com/bitlum/btcutil
 - package: github.com/btcsuite/go-socks
   subpackages:
   - socks
